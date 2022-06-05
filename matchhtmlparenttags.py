@@ -141,7 +141,7 @@ class MatchhtmltagsWindowActivatable(GObject.Object, Gedit.WindowActivatable):
     def smart_highlight_on(self,doc, highlight_start, highlight_end):
 	    if doc.get_tag_table().lookup('smart_highlight') == None:
 		    #tag = doc.create_tag("smart_highlight", foreground="#2e3436", background="#888a85")
-		    tag = doc.create_tag("smart_highlight", background="#555753")
+		    tag = doc.create_tag("smart_highlight", background="#a40000")
 	    doc.apply_tag_by_name('smart_highlight', doc.get_iter_at_offset(highlight_start), doc.get_iter_at_offset(highlight_end))
 
     def smart_highlight_off(self,doc):
