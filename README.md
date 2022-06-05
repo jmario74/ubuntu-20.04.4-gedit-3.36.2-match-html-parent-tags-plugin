@@ -1,4 +1,4 @@
-# gedit-3.36.2-cutom-plugins
+# ubuntu-20.04.4-gedit-3.36.2-match-html-parent-tags-plugin
 Custom plugins for gedit version 3.36.2 on Ubuntu 20.04.4 LTS Focal  
 INSTALLATION:  
 add to "~/.local/share/gedit/plugins" folder/folders or if it doesn't exist; create the folder/folders.  
